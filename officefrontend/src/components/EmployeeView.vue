@@ -2,18 +2,18 @@
   <div>
     <h2>Employee Registation</h2>
     <form @submit.prevent="save">
-      <div class="form-group">
+      <div class="form-group w-50 mx-auto mb-2">
         <label>Employee name</label>
         <input type="text" v-model="employee.name" class="form-control" placeholder="Employee name">
 
       </div>
-      <div class="form-group">
+      <div class="form-group w-50 mx-auto mb-2">
         <label>Employee Address</label>
         <input type="text" v-model="employee.address" class="form-control" placeholder="Employee Address">
 
       </div>
 
-      <div class="form-group">
+      <div class="form-group w-50 mx-auto mb-2">
         <label>Mobile</label>
         <input type="text" v-model="employee.mobile" class="form-control" placeholder="Mobile">
 
